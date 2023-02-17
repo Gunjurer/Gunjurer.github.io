@@ -1,6 +1,76 @@
 body {
-    background-color: pink;
+    background-color: #FFE1E6;
+    color: black;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffc0cb;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    font-size: 18px;
+    display: block;
     color: black;
     text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {  
+    background-color: #ffc9d2;
+  }
 
+  h1{
+    text-align: center;
+    padding: 8px;
+    max-width: fit-content;
+    background-color: pink;
+  }
+
+  h2{
+    max-width: fit-content;
+    padding: 8px;
+    background-color: pink;
+  }
+
+pre{
+  padding: 8px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  max-width: fit-content;
+  background-color: pink;
+}
+
+p{
+  padding: 8px;
+  font-size: 18px;
+  max-width: fit-content;
+  background-color: pink;
+
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+img{
+  text-align: center;
+  background-color: pink;
+  padding: 12px;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
 }
